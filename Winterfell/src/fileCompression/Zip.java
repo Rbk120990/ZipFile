@@ -16,7 +16,7 @@ public class Zip {
 	
 	@Test
 	public void main() throws IOException {
-		boolean file_exist=file.exists();
+		boolean file_exist=file.exists(); 
 		if(file_exist == true) {
 		System.out.println("Input string is an existing filepath");
 		boolean isfile=file.isFile();
